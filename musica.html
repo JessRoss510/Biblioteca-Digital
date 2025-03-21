@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Musical</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .library {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .song {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 15px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+        }
+        .song img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">📚 Biblioteca Digital - Proyecto Escolar 🎵</div>
+    <div class="library">
+        <div class="song">
+            <img src="https://images.genius.com/e94fe68edcfc6b37e73ac2f63be05030.640x640x1.jpg" alt="Portada Canción 1">
+            <h3>Mujer que Bota Fuego</h3>
+            <p>Manuel Mendrano</p>
+            <audio controls>
+                <source src="files/Manuel Medrano - La Mujer que Bota Fuego (Audio Oficial).mp3" type="audio/mp3">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </div>
+        <div class="song">
+            <img src="https://i1.sndcdn.com/artworks-BzT5nEjJYvqI-0-t500x500.jpg" alt="Portada Canción 2">
+            <h3>Vuelta al Mundo</h3>
+            <p>Calle 13</p>
+            <audio controls>
+                <source src="files/Calle 13 - La Vuelta al Mundo.mp3" type="audio/mp3">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </div>
+        <!-- Agregar más canciones aquí -->
+    </div>
+</body>
+</html>

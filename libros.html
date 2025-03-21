@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Libros</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .library {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .book {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+        }
+        .book img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .view-pdf {
+            display: block;
+            background-color: #2980b9;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .view-pdf:hover {
+            background-color: #1c5985;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">📖 Biblioteca de Libros - Proyecto Escolar 📚</div>
+    <div class="library">
+        <div class="book">
+            <img src="https://infolibros.org/thumbnails/temp/1-La-vuelta-al-mundo-en-80-d-as-Autor-Julio-Verne-thumbnail-92183.webp" alt="Portada Libro 1">
+            <h3>La vuelta al mundo en 80 días</h3>
+            <p>Phileas Fogg</p>
+            <a href="files/1. La vuelta al mundo en 80 días  Autor Julio Verne.pdf" class="view-pdf" target="_blank">📂 Ver PDF</a>
+        </div>
+        <div class="book">
+            <img src="https://infolibros.org/thumbnails/temp/46LoscrimenesdelacalleMorgueAutorEdgarAllanPoe-thumbnail-92228.webp" alt="Portada Libro 2">
+            <h3>Los crímenes de la calle Morgue</h3>
+            <p>Edgar Allan Poe</p>
+            <a href="files/46. Los crímenes de la calle Morgue Autor Edgar Allan Poe.pdf" class="view-pdf" target="_blank">📂 Ver PDF</a>
+        </div>
+        <!-- Agregar más libros aquí -->
+    </div>
+</body>
+</html>
